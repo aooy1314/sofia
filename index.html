@@ -6,6 +6,8 @@
     <title>我们的回忆</title>
     <!-- 引入Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 引入AOS库CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- 引入自定义CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -27,29 +29,29 @@
         </div>
     </nav>
 
-    <section id="home" class="section active">
+    <section id="home" class="section active" data-aos="fade-up">
         <div class="container text-center">
             <h1 class="display-4">欢迎，亲爱的！</h1>
             <p class="lead">一起回顾我们美好的回忆。</p>
         </div>
     </section>
 
-    <section id="photos" class="section">
-        <div class="container">
-            <h2 class="text-center">照片</h2>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <img src="images/姐姐.jpg" class="img-fluid" alt="Photo 1">
-                </div>
-                <div class="col-md-4 mb-3">
-                    <img src="images/photo2.JPG" class="img-fluid" alt="Photo 2">
-                </div>
-                <!-- 更多照片 -->
+    <section id="photos" class="section" data-aos="fade-up">
+    <div class="container">
+        <h2 class="text-center">照片</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="images/photo1.jpg" class="img-fluid" alt="Photo 1">
             </div>
+            <div class="col-md-4 mb-3">
+                <img src="images/photo2.jpg" class="img-fluid" alt="Photo 2">
+            </div>
+            <!-- 更多照片 -->
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="diary" class="section">
+    <section id="diary" class="section" data-aos="fade-up">
         <div class="container">
             <h2 class="text-center">日记</h2>
             <article class="my-4">
@@ -60,7 +62,7 @@
         </div>
     </section>
 
-    <section id="map" class="section">
+    <section id="map" class="section" data-aos="fade-up">
         <div class="container">
             <h2 class="text-center">地图</h2>
             <p>我们去过的地方：</p>
@@ -76,6 +78,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- 引入AOS库JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
     <!-- 引入自定义JS -->
     <script src="scripts.js"></script>
 </body>
