@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+    AOS.init(); // Initialize AOS library
+
     const sections = document.querySelectorAll('.section');
     const navLinks = document.querySelectorAll('.nav-link');
 
